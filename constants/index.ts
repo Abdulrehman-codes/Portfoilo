@@ -49,7 +49,7 @@ export const Skill_data = [
     },
     {
       skill_name: "Fire base",
-      Image: "/Firebase.png",
+      Image: "/firebase.png",
       width: 55,
       height: 55,
     },
@@ -136,7 +136,7 @@ export const Skill_data = [
     
     {
       skill_name: "Fire base",
-      Image: "/Firebase.png",
+      Image: "/firebase.png",
       width: 55,
       height: 55,
     },

@@ -80,22 +80,36 @@ html {
 }
 
 .project-card-link {
-  text-decoration:none;
+  text-decoration: none;
   z-index: 49;
 }
 
 .project-card-container {
-  width: 550px; 
-  height: 400px; 
+  width: 550px; /* Default width */
+  height: 400px; /* Default height */
   transition: transform 0.3s ease;
 }
-.image-container{
-  width: 550px; /* Specify the width of the container */
-  height: 400px; /* Specify the height of the container */
+
+.image-container {
+  width: 550px; /* Default width */
+  height: 400px; /* Default height */
   position: relative;
-  object-fit: fill;
+  object-fit: cover;
+  object-position: center;
   overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  .project-card-container {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+  
+  .image-container {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+}
+
+
 .image-container img {
   max-width: 100%; /* Ensure the image doesn't exceed the container width */
   max-height: 82%; /* Ensure the image doesn't exceed the container height */
@@ -137,4 +151,6 @@ html {
   color: black;
 }
 
-
+.nav-link {
+  width: 20vw; /* Adjust the percentage as needed */
+}

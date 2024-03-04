@@ -21,7 +21,6 @@ const ProjectCard = ({ src, title, description, link }: Props) => {
               alt={title}
               width={1000}
               height={1000}
-              layout="responsive"
               className="w-full h-full object-cover"
             />
           </div>

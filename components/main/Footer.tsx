@@ -9,7 +9,7 @@ const RxLinkedinLogo = dynamic(() => import("react-icons/rx").then(mod => mod.Rx
 
 const Footer = () => {
   return (
-    <div className="footer-container w-full border-[1px] bg-gray-800 text-gray-200 p-4  bottom-0 left-0 right-0 z-50">
+    <div  id='contact' className="footer-container w-full border-[1px] bg-gray-800 text-gray-200 p-4  bottom-0 left-0 right-0 z-50">
       <div className="flex flex-col md:flex-row justify-around max-w-screen-lg mx-auto">
         <div className="mb-8 md:mb-0">
           <div className="font-bold text-lg mb-2">Community</div>

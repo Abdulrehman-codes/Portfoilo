@@ -18,6 +18,30 @@ export const Skill_data = [
       height: 65,
     },
     {
+      skill_name: "PowerBI",
+      Image: "/powerbi.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "StreamLit",
+      Image: "/streamlit.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Grafana",
+      Image: "/grafana.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Plotly",
+      Image: "/plotly.png",
+      width: 100,
+      height: 100,
+    },
+    {
       skill_name: "TensorFlow",
       Image: "/tensor.png",
       width: 80,
@@ -60,12 +84,12 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
-    {
-      skill_name: "Go",
-      Image: "/go.png",
-      width: 60,
-      height: 60,
-    },
+    // {
+    //   skill_name: "Go",
+    //   Image: "/go.png",
+    //   width: 60,
+    //   height: 60,
+    // },
   
   ];
   
@@ -118,12 +142,12 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "DevOps",
-      Image: "/aws.png",
-      width: 80,
-      height: 80,
-    },
+    // {
+    //   skill_name: "DevOps",
+    //   Image: "/aws.png",
+    //   width: 80,
+    //   height: 80,
+    // },
     {
       skill_name: "Flutter",
       Image: "/flutter.png",
@@ -164,12 +188,12 @@ export const Skill_data = [
   
   
   export const Other_skill = [
-    {
-      skill_name: "Go",
-      Image: "/go.png",
-      width: 60,
-      height: 60,
-    },
+    // {
+    //   skill_name: "Go",
+    //   Image: "/go.png",
+    //   width: 60,
+    //   height: 60,
+    // },
   ];
   
   

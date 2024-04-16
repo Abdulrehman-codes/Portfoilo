@@ -43,7 +43,7 @@ const Footer = () => {
             <RxInstagramLogo className="mr-2" />
             Instagram
           </a>
-          <a
+          {/* <a
             href="https://twitter.com/AbdulRe26019449"
             className="flex items-center mb-2"
             target="_blank"
@@ -51,7 +51,7 @@ const Footer = () => {
           >
             <RxTwitterLogo className="mr-2" />
             Twitter
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/abdul-rehman-b28407247/"
             className="flex items-center"
@@ -63,11 +63,11 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <div className="font-bold text-lg mb-2">About</div>
-          <p className="mb-2">Become Sponsor</p>
-          <p className="mb-2">Learning about me</p>
-          <p>baigabdulrehman21gmail.com</p>
-        </div>
+  <div className="font-bold text-lg mb-2">About</div>
+  <p className="mb-2">Learning about me</p>
+  <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=baigabdulrehman21@gmail.com" target="_blank">baigabdulrehman21@gmail.com</a></p>
+</div>
+
       </div>
       <div className="text-center mt-4">&copy; All Rights Reserved !!</div>
     </div>

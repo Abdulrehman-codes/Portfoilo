@@ -16,6 +16,13 @@ const Projects = () => {
           
         />
         <ProjectCard
+          src="/heart.jpeg"
+          title="Arrthymia Detection"
+          description="This project corresponds to the collecting,preprocessing,visualizing, and data analysis of ECG dataset."
+          link="https://medium.com/stackademic/introduction-to-data-analysis-and-dimensionality-reduction-using-ecg-dataset-for-arrhythmia-21af0b41e295"
+         
+        />
+        <ProjectCard
           src="/webscrapper.webp"
           title="Web Scrapper"
           description="Our web scraper is a versatile tool, developed in Python, that retrieves images, text, and videos from websites with ease."
@@ -36,6 +43,7 @@ const Projects = () => {
           link="https://github.com/Abdulrehman-codes/Text-Annotator"
          
         />
+        
       </div>
     </div>
   );

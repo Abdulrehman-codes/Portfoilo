@@ -211,15 +211,17 @@ html {
   padding: 1rem;
 }
 
-.mobile-nav-link {
-  /* Existing styles */
+.hero-content-mobile{
+  padding-left: 80px;
 }
 
 @media (max-width: 768px) {
   .nav-links {
     display:none;
   }
-
+  .hero-content-mobile{
+    padding-left: 20px;
+  }
   .mobile-menu-btn {
     display: block;
   }

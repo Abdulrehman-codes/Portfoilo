@@ -35,15 +35,7 @@ const Projects = () => {
           description="This is an R/R Shiny Project based on Valorant Leaderboard Data 2021. Which predicts ranks based on stats"
           link="https://github.com/Mirxa08/Valorant-Rank-Predictor"
         
-        />
-        <ProjectCard
-          src="/annotation.png"
-          title="Data Annotation using LLM"
-          description="This is an annotation project that uses Gemini API to annotate the text data"
-          link="https://github.com/Abdulrehman-codes/Text-Annotator"
-         
-        />
-        
+        /> 
       </div>
     </div>
   );

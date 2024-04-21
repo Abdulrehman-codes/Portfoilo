@@ -14,7 +14,7 @@ const Herocontent = () => {
 
   useEffect(() => {
     const typed = new Typed(nameRef.current, {
-      strings: ['Abdul Rehman.','Data Scientist.','App Developer.','ML Engineer.'],
+      strings: ['Abdul Rehman','Data Scientist','App Developer','ML Engineer'],
       typeSpeed: 200,
       backSpeed:50,
       loop: true,

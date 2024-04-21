@@ -1,3 +1,4 @@
+import BlogList from "@/components/main/BlogList";
 import Encryption from "@/components/main/Encryption";
 import Footer from "@/components/main/Footer";
 import Hero from "@/components/main/Hero";
@@ -19,7 +20,8 @@ export default function Home() {
       <div className='flex flex-col  gap-20'>
         <Hero />
         <Skills/>
-        <Encryption/>
+        <BlogList/>
+        {/* <Encryption/> */}
         <Projects/>
         <Footer/>
       </div>
